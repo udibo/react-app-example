@@ -1,0 +1,27 @@
+{
+  "tasks": {
+    "build": "deno run -A --import-map=./import_map.json https://deno.land/x/udibo_react_app@0.1.3/build.ts",
+    "run": "deno run -A ./main.ts",
+    "dev": "deno run -A --import-map=./import_map.json https://deno.land/x/udibo_react_app@0.1.3/dev.ts",
+    "test": "export APP_ENV=test && deno test -A .",
+    "test-watch": "export APP_ENV=test && deno test -A --watch .",
+    "check": "deno lint && deno fmt --check",
+    "git-rebase": "git fetch origin main && git rebase --onto origin/main HEAD"
+  },
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable", "dom.asynciterable", "deno.ns"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm/react"
+  },
+  "lint": {
+    "files": {
+      "exclude": ["public/build"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "exclude": ["public/build"]
+    }
+  },
+  "importMap": "./import_map.json"
+}

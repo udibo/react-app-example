@@ -1,7 +1,7 @@
 # Example Udibo React App
 
-[![CI](https://github.com/udibo/react_app/workflows/CI/badge.svg)](https://github.com/udibo/react_app/actions?query=workflow%3ACI)
-[![license](https://img.shields.io/github/license/udibo/react_app)](https://github.com/udibo/react_app/blob/main/LICENSE)
+[![CI/CD](https://github.com/udibo/react_app_example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/udibo/react_app_example/actions/workflows/main.yml)
+[![license](https://img.shields.io/github/license/udibo/react_app_example)](https://github.com/udibo/react_app_example/blob/main/LICENSE)
 
 A basic example of a [Udibo React App](https://deno.land/x/udibo_react_app).
 

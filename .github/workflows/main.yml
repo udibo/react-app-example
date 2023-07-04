@@ -7,12 +7,12 @@ on:
 jobs:
   ci:
     name: CI
-    uses: udibo/react_app/.github/workflows/ci.yml@0.15.0
+    uses: udibo/react_app/.github/workflows/ci.yml@0.17.0
     with:
       test-args: '-A'
   cd:
     name: CD
     needs: ci
-    uses: udibo/react_app/.github/workflows/deploy.yml@0.15.0
+    uses: udibo/react_app/.github/workflows/deploy.yml@0.17.0
     with:
       project: udibo-react-app-example

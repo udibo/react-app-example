@@ -1,12 +1,12 @@
 # Example Udibo React App
 
-[![CI/CD](https://github.com/udibo/react_app_example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/udibo/react_app_example/actions/workflows/main.yml)
-[![license](https://img.shields.io/github/license/udibo/react_app_example)](https://github.com/udibo/react_app_example/blob/main/LICENSE)
+[![CI/CD](https://github.com/udibo/react-app-example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/udibo/react-app-example/actions/workflows/main.yml)
+[![license](https://img.shields.io/github/license/udibo/react-app-example)](https://github.com/udibo/react-app-example/blob/main/LICENSE)
 
-A basic example of a [Udibo React App](https://deno.land/x/udibo_react_app).
+A basic example of a [Udibo React App](https://jsr.io/@udibo/react-app).
 
 - [GitHub Repository](https://github.com/udibo/react_app/)
-- [Deno docs](https://deno.land/x/udibo_react_app)
+- [Documentation](https://jsr.io/@udibo/react-app)
 
 ## Deployment
 

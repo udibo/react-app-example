@@ -3,10 +3,8 @@
   "deno.lint": true,
   "deno.unstable": false,
   "deno.config": "./deno.jsonc",
-  "deno.importMap": "./import_map.json",
-  "deno.suggest.imports.hosts": {
-    "https://deno.land": true
-  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "editor.quickSuggestions": {
     "strings": true
   }

@@ -31,7 +31,8 @@
         "--inspect-wait"
       ],
       "env": {
-        "APP_ENV": "production"
+        "APP_ENV": "production",
+        "NODE_ENV": "production"
       },
       "attachSimplePort": 9229
     },
@@ -48,7 +49,26 @@
         "--inspect-wait"
       ],
       "env": {
-        "APP_ENV": "test"
+        "APP_ENV": "test",
+        "NODE_ENV": "development"
+      },
+      "attachSimplePort": 9229
+    },
+    {
+      "request": "launch",
+      "name": "deno task: dev",
+      "type": "node",
+      "program": "${workspaceFolder}/dev.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run",
+        "-A",
+        "--inspect-wait"
+      ],
+      "env": {
+        "APP_ENV": "development",
+        "NODE_ENV": "development"
       },
       "attachSimplePort": 9229
     }

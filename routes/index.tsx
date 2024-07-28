@@ -1,4 +1,4 @@
-import { Helmet } from "npm/react-helmet-async";
+import { Helmet } from "@udibo/react-app";
 
 export default function Index() {
   return (
@@ -14,14 +14,10 @@ export default function Index() {
       <p>This is a basic example of a Udibo React App.</p>
       <ul>
         <li>
-          <a href="https://github.com/udibo/react_app_example">
-            GitHub Repository
-          </a>
+          <a href="https://github.com/udibo/react_app">GitHub Repository</a>
         </li>
         <li>
-          <a href="https://deno.land/x/udibo_react_app">
-            Deno docs
-          </a>
+          <a href="https://deno.land/x/udibo_react_app">Deno docs</a>
         </li>
       </ul>
     </>

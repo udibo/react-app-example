@@ -29,16 +29,28 @@ To run the tests, use `deno task test` or `deno task test-watch`.
 
 To check formatting and run lint, use `deno task check`.
 
-To create a build and to run the build, use `deno task build` and
-`deno task run`. By default, the application builds and runs in development
-mode. To build and run a production build, set the `APP_ENV` environment
-variable to `production`.
+The following 2 commands can be used for creating builds.
+
+- `deno task build-dev`: Builds the application in development mode.
+- `deno task build-prod`: Builds the application in production mode.
+
+A build must be generated before you can run an application. You can use the
+following 2 commands to run the application.
+
+- `deno task run-dev`: Runs the application in development mode.
+- `deno task run-prod`: Runs the application in production mode.
 
 To run the application in development mode with live reloading, use
 `deno task dev`.
 
 When in development, identifiers are not minified and sourcemaps are generated
 and linked.
+
+The commands ending in `-dev` and `-prod` set the `APP_ENV` and `NODE_ENV`
+environment variables. The `NODE_ENV` environment variable is needed for react.
+If you use the `deno task build` or `deno task run` tasks, you should make sure
+that you set both of those environment variables. Those environment variables
+are also needed if you deploy to Deno Deploy.
 
 ## Contributing
 

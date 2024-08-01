@@ -9,7 +9,7 @@ import {
 } from "@udibo/react-app";
 import * as log from "@std/log";
 
-import { Loading } from "../components/loading.tsx";
+import { Loading } from "/components/loading.tsx";
 
 if (isBrowser()) {
   const level = isDevelopment() ? "DEBUG" : "INFO";
@@ -21,9 +21,6 @@ if (isBrowser()) {
 
 const navLinks = [
   { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Blog", to: "/blog" },
-  { label: "Fake", to: "/fake" },
 ];
 
 export default function Main() {

@@ -3,24 +3,26 @@
   "configurations": [
     {
       "request": "launch",
-      "name": "deno task: build",
+      "name": "build",
       "type": "node",
-      "program": "${workspaceFolder}/build.ts",
+      "program": "jsr:@udibo/react-app@0.23/build",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [
         "run",
         "-A",
+        "--config=deno.jsonc",
         "--inspect-wait"
       ],
       "env": {
-        "APP_ENV": "production"
+        "APP_ENV": "development",
+        "NODE_ENV": "development"
       },
       "attachSimplePort": 9229
     },
     {
       "request": "launch",
-      "name": "deno task: run",
+      "name": "run",
       "type": "node",
       "program": "${workspaceFolder}/main.ts",
       "cwd": "${workspaceFolder}",
@@ -31,14 +33,14 @@
         "--inspect-wait"
       ],
       "env": {
-        "APP_ENV": "production",
-        "NODE_ENV": "production"
+        "APP_ENV": "development",
+        "NODE_ENV": "development"
       },
       "attachSimplePort": 9229
     },
     {
       "request": "launch",
-      "name": "deno task: test",
+      "name": "test",
       "type": "node",
       "program": ".",
       "cwd": "${workspaceFolder}",
@@ -56,14 +58,15 @@
     },
     {
       "request": "launch",
-      "name": "deno task: dev",
+      "name": "dev",
       "type": "node",
-      "program": "${workspaceFolder}/dev.ts",
+      "program": "jsr:@udibo/react-app@0.23/dev",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [
         "run",
         "-A",
+        "--config=deno.jsonc",
         "--inspect-wait"
       ],
       "env": {

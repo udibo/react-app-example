@@ -41,6 +41,7 @@
       "jsr:@udibo/http-error@0": "jsr:@udibo/http-error@0.8.2",
       "jsr:@udibo/react-app@0.21": "jsr:@udibo/react-app@0.21.0",
       "jsr:@udibo/react-app@0.22": "jsr:@udibo/react-app@0.22.0",
+      "jsr:@udibo/react-app@0.23": "jsr:@udibo/react-app@0.23.0",
       "npm:@testing-library/react@16": "npm:@testing-library/react@16.0.0_@testing-library+dom@10.4.0_@types+react@18.3.3_react@18.3.1_react-dom@18.3.1__react@18.3.1",
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:@types/react@18": "npm:@types/react@18.3.3",
@@ -52,6 +53,7 @@
       "npm:react-error-boundary@4": "npm:react-error-boundary@4.0.13_react@18.3.1",
       "npm:react-error-boundary@4.0.13": "npm:react-error-boundary@4.0.13_react@18.3.1",
       "npm:react-helmet-async@2": "npm:react-helmet-async@2.0.5_react@18.3.1",
+      "npm:react-helmet-async@2.0.5": "npm:react-helmet-async@2.0.5_react@18.3.1",
       "npm:react-router-dom@6": "npm:react-router-dom@6.24.0_react@18.3.1_react-dom@18.3.1__react@18.3.1",
       "npm:react-router-dom@6.24.0": "npm:react-router-dom@6.24.0_react@18.3.1_react-dom@18.3.1__react@18.3.1",
       "npm:react@18": "npm:react@18.3.1",
@@ -269,6 +271,26 @@
           "jsr:@std/path@1",
           "jsr:@udibo/http-error@0",
           "npm:@types/react@18",
+          "npm:esbuild@0.20",
+          "npm:global-jsdom@24",
+          "npm:react-dom@18",
+          "npm:react-error-boundary@4",
+          "npm:react-helmet-async@2",
+          "npm:react-router-dom@6",
+          "npm:react@18",
+          "npm:serialize-javascript@6"
+        ]
+      },
+      "@udibo/react-app@0.23.0": {
+        "integrity": "a6dad0b8421c69c9483dcecbb293a9f1f1f0268715a48179d5ef61ef18995642",
+        "dependencies": [
+          "jsr:@luca/esbuild-deno-loader@0.10",
+          "jsr:@oak/oak@16",
+          "jsr:@std/async@1",
+          "jsr:@std/fs@0",
+          "jsr:@std/log@0",
+          "jsr:@std/path@1",
+          "jsr:@udibo/http-error@0",
           "npm:esbuild@0.20",
           "npm:react-dom@18",
           "npm:react-error-boundary@4",
@@ -938,26 +960,17 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "jsr:@luca/esbuild-deno-loader@0.10",
-      "jsr:@oak/oak@16",
       "jsr:@std/assert@1",
-      "jsr:@std/async@1",
-      "jsr:@std/fs@0",
       "jsr:@std/log@0",
       "jsr:@std/path@1",
       "jsr:@std/testing@0",
-      "jsr:@udibo/http-error@0",
       "jsr:@udibo/react-app@0.22",
       "npm:@testing-library/react@16",
       "npm:@types/react@18",
-      "npm:esbuild@0.20",
       "npm:global-jsdom@24",
-      "npm:react-dom@18",
-      "npm:react-error-boundary@4",
       "npm:react-helmet-async@2",
       "npm:react-router-dom@6",
-      "npm:react@18",
-      "npm:serialize-javascript@6"
+      "npm:react@18"
     ]
   }
 }

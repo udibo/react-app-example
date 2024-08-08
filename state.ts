@@ -1,5 +1,2 @@
-import type { Post } from "./models/posts.ts";
-
-export type AppState = {
-  posts?: { [id: number]: Post };
-};
+// deno-lint-ignore ban-types
+export type AppState = {};

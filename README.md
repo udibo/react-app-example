@@ -55,4 +55,4 @@ are also needed if you deploy to Deno Deploy.
 
 ## Contributing
 
-To contribute, please read the [contributing instruction](CONTRIBUTING.md).
+To contribute, please read the [contributing instructions](CONTRIBUTING.md).

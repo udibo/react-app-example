@@ -6,7 +6,7 @@
 
 A basic example of a [Udibo React App](https://jsr.io/@udibo/react-app).
 
-- [GitHub Repository](https://github.com/udibo/react_app/)
+- [GitHub Repository](https://github.com/udibo/react-app/)
 - [Documentation](https://jsr.io/@udibo/react-app)
 
 ## Deployment

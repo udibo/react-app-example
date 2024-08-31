@@ -1,13 +1,13 @@
 {
   "tasks": {
     // Builds the application.
-    "build": "deno run -A --config=deno.jsonc jsr:@udibo/react-app@0.24.1/build",
+    "build": "deno run -A --config=deno.jsonc jsr:@udibo/react-app@0.24.2/build",
     // Builds the application in development mode.
     "build-dev": "export APP_ENV=development NODE_ENV=development && deno task build",
     // Builds the application in production mode.
     "build-prod": "export APP_ENV=production NODE_ENV=production && deno task build",
     // Builds and runs the application in development mode, with hot reloading.
-    "dev": "export APP_ENV=development NODE_ENV=development && deno run -A --config=deno.jsonc jsr:@udibo/react-app@0.24.1/dev",
+    "dev": "export APP_ENV=development NODE_ENV=development && deno run -A --config=deno.jsonc jsr:@udibo/react-app@0.24.2/dev",
     // Runs the application. Requires the application to be built first.
     "run": "deno run -A ./main.ts",
     // Runs the application in development mode. Requires the application to be built first.
@@ -31,15 +31,20 @@
   },
   "nodeModulesDir": true,
   "lint": {
-    "exclude": ["public/build", "routes/_main.ts", "routes/_main.tsx"]
+    "exclude": [
+      "coverage",
+      "public/build",
+      "routes/_main.ts",
+      "routes/_main.tsx"
+    ]
   },
   "fmt": {
-    "exclude": ["public/build"]
+    "exclude": ["coverage", "public/build"]
   },
   "imports": {
     "/": "./",
     "./": "./",
-    "@udibo/react-app": "jsr:@udibo/react-app@0.22",
+    "@udibo/react-app": "jsr:@udibo/react-app@0.24.2",
     "@std/assert": "jsr:@std/assert@1",
     "@std/log": "jsr:@std/log@0",
     "@std/path": "jsr:@std/path@1",

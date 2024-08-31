@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Link, Outlet } from "npm:react-router-dom@6";
+import { Link, Outlet } from "react-router-dom";
 import {
   DefaultErrorFallback,
   ErrorBoundary,

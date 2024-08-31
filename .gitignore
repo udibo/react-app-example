@@ -6,3 +6,6 @@ routes/_main.ts
 
 # VSCode
 .vscode/*.log
+
+# Node modules
+node_modules

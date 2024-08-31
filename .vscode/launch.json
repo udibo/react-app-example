@@ -5,7 +5,7 @@
       "request": "launch",
       "name": "build",
       "type": "node",
-      "program": "jsr:@udibo/react-app@0.23/build",
+      "program": "jsr:@udibo/react-app@0.24.1/build",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [
@@ -60,7 +60,7 @@
       "request": "launch",
       "name": "dev",
       "type": "node",
-      "program": "jsr:@udibo/react-app@0.23/dev",
+      "program": "jsr:@udibo/react-app@0.24.1/dev",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [

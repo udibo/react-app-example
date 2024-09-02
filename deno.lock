@@ -7,7 +7,7 @@
       "jsr:@oak/oak@16": "jsr:@oak/oak@16.1.0",
       "jsr:@std/assert@0.223": "jsr:@std/assert@0.223.0",
       "jsr:@std/assert@0.226": "jsr:@std/assert@0.226.0",
-      "jsr:@std/assert@1": "jsr:@std/assert@1.0.2",
+      "jsr:@std/assert@1": "jsr:@std/assert@1.0.3",
       "jsr:@std/assert@^0.213.1": "jsr:@std/assert@0.213.1",
       "jsr:@std/assert@^0.223.0": "jsr:@std/assert@0.223.0",
       "jsr:@std/assert@^0.224.0": "jsr:@std/assert@0.224.0",
@@ -27,6 +27,7 @@
       "jsr:@std/http@0.223": "jsr:@std/http@0.223.0",
       "jsr:@std/http@0.224": "jsr:@std/http@0.224.5",
       "jsr:@std/internal@^1.0.1": "jsr:@std/internal@1.0.1",
+      "jsr:@std/internal@^1.0.2": "jsr:@std/internal@1.0.2",
       "jsr:@std/io@0.223": "jsr:@std/io@0.223.0",
       "jsr:@std/io@^0.224.6": "jsr:@std/io@0.224.6",
       "jsr:@std/jsonc@0.213": "jsr:@std/jsonc@0.213.1",
@@ -37,11 +38,11 @@
       "jsr:@std/path@0.223": "jsr:@std/path@0.223.0",
       "jsr:@std/path@1": "jsr:@std/path@1.0.3",
       "jsr:@std/path@^1.0.3": "jsr:@std/path@1.0.3",
-      "jsr:@std/testing@1": "jsr:@std/testing@1.0.0",
+      "jsr:@std/testing@1": "jsr:@std/testing@1.0.1",
       "jsr:@udibo/http-error@0": "jsr:@udibo/http-error@0.8.2",
       "jsr:@udibo/react-app@0.24": "jsr:@udibo/react-app@0.24.0",
       "jsr:@udibo/react-app@0.24.1": "jsr:@udibo/react-app@0.24.1",
-      "jsr:@udibo/react-app@0.24.2": "jsr:@udibo/react-app@0.24.2",
+      "jsr:@udibo/react-app@0.24.3": "jsr:@udibo/react-app@0.24.3",
       "npm:@testing-library/react@16": "npm:@testing-library/react@16.0.0_@testing-library+dom@10.4.0_@types+react@18.3.3_react@18.3.1_react-dom@18.3.1__react@18.3.1",
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:@types/react@18": "npm:@types/react@18.3.3",
@@ -110,6 +111,12 @@
           "jsr:@std/internal@^1.0.1"
         ]
       },
+      "@std/assert@1.0.3": {
+        "integrity": "b0d03ce1ced880df67132eea140623010d415848df66f6aa5df76507ca7c26d8",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.2"
+        ]
+      },
       "@std/async@1.0.4": {
         "integrity": "373f5168a01b46ecaabc785d4e0f9ef18a010ab867af069fb905d93a9129ae5b"
       },
@@ -166,6 +173,9 @@
       "@std/internal@1.0.1": {
         "integrity": "6f8c7544d06a11dd256c8d6ba54b11ed870aac6c5aeafff499892662c57673e6"
       },
+      "@std/internal@1.0.2": {
+        "integrity": "f4cabe2021352e8bfc24e6569700df87bf070914fc38d4b23eddd20108ac4495"
+      },
       "@std/io@0.223.0": {
         "integrity": "2d8c3c2ab3a515619b90da2c6ff5ea7b75a94383259ef4d02116b228393f84f1",
         "dependencies": [
@@ -213,6 +223,9 @@
       "@std/testing@1.0.0": {
         "integrity": "27cfc06392c69c2acffe54e6d0bcb5f961cf193f519255372bd4fff1481bfef8"
       },
+      "@std/testing@1.0.1": {
+        "integrity": "9c25841137ee818933e1722091bb9ed5fdc251c35e84c97979a52196bdb6c5c3"
+      },
       "@udibo/http-error@0.8.2": {
         "integrity": "db400c3d169f308b64b7349875b164562f947eb08a9079d3a1da41f53e034907",
         "dependencies": [
@@ -257,8 +270,8 @@
           "npm:serialize-javascript@6"
         ]
       },
-      "@udibo/react-app@0.24.2": {
-        "integrity": "d9ee236bc38b9a5a1d5b649df27acc0fa9ef0c70a66ab54d8da3faa5236d1be1",
+      "@udibo/react-app@0.24.3": {
+        "integrity": "596e6e975d173d303cc8473636efd27426a27f9973a6b697143223376842efbe",
         "dependencies": [
           "jsr:@luca/esbuild-deno-loader@0.10",
           "jsr:@oak/oak@16",
@@ -947,7 +960,7 @@
       "jsr:@std/log@0",
       "jsr:@std/path@1",
       "jsr:@std/testing@1",
-      "jsr:@udibo/react-app@0.24.2",
+      "jsr:@udibo/react-app@0.24.3",
       "npm:@testing-library/react@16",
       "npm:@types/react@18",
       "npm:global-jsdom@24",

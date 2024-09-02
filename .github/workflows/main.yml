@@ -7,12 +7,12 @@ on:
 jobs:
   ci:
     name: CI
-    uses: udibo/react-app/.github/workflows/ci.yml@0.24.2
+    uses: udibo/react-app/.github/workflows/ci.yml@0.24.3
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
   cd:
     name: CD
     needs: ci
-    uses: udibo/react-app/.github/workflows/deploy.yml@0.24.2
+    uses: udibo/react-app/.github/workflows/deploy.yml@0.24.3
     with:
       project: udibo-react-app-example

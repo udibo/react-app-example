@@ -49,6 +49,7 @@
       "npm:global-jsdom@24": "npm:global-jsdom@24.0.0_jsdom@24.1.1",
       "npm:path-to-regexp@6.2.1": "npm:path-to-regexp@6.2.1",
       "npm:react-dom@18": "npm:react-dom@18.3.1_react@18.3.1",
+      "npm:react-dom@18.3.1": "npm:react-dom@18.3.1_react@18.3.1",
       "npm:react-error-boundary@4": "npm:react-error-boundary@4.0.13_react@18.3.1",
       "npm:react-error-boundary@4.0.13": "npm:react-error-boundary@4.0.13_react@18.3.1",
       "npm:react-helmet-async@2": "npm:react-helmet-async@2.0.5_react@18.3.1",

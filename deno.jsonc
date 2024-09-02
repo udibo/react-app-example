@@ -30,17 +30,13 @@
     "jsxImportSourceTypes": "@types/react"
   },
   "nodeModulesDir": true,
-  "lint": {
-    "exclude": [
-      "coverage",
-      "public/build",
-      "routes/_main.ts",
-      "routes/_main.tsx"
-    ]
-  },
-  "fmt": {
-    "exclude": ["coverage", "public/build"]
-  },
+  "exclude": [
+    "coverage",
+    "node_modules",
+    "public/build",
+    "routes/_main.ts",
+    "routes/_main.tsx"
+  ],
   "imports": {
     "/": "./",
     "./": "./",
